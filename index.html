@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehmet Sayman | Software Developer & AI Enthusiast</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Mehmet Sayman - Bilgisayar Mühendisliği Öğrencisi, Yazılım Geliştirici ve Yapay Zeka meraklısı. Portfolyo ve projeler.">
+    <meta name="keywords"
+        content="Mehmet Sayman, Yazılım Geliştirici, Yapay Zeka, Bilgisayar Mühendisliği, ÇOMÜ, Portfolio">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- Background Effects -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <img src="./images/profile.jpg" alt="Mehmet" class="logo-profile-img">
+                <span class="logo-text">M<span>.</span>S</span>
+            </a>
+
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Ana Sayfa</a></li>
+                <li><a href="#about" class="nav-link">Hakkımda</a></li>
+                <li><a href="#skills" class="nav-link">Yetenekler</a></li>
+                <li><a href="#portfolio" class="nav-link">Projeler</a></li>
+                <li><a href="#contact" class="nav-link btn-contact">İletişime Geç</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <div class="badge">
+                    <span class="status-dot"></span>
+                    Staja Hazır / Available for Internship
+                </div>
+                <!-- Dynamic text handled in JS potentially, or static here -->
+                <h1 class="hero-title">Merhaba, Ben <br><span class="gradient-text">Mehmet Sayman</span></h1>
+                <h2 class="hero-subtitle">Yazılım Geliştirici & AI Tutkunu</h2>
+                <p class="hero-description">
+                    Çanakkale Onsekiz Mart Üniversitesi'nde Bilgisayar Mühendisliği 3. sınıf öğrencisiyim.
+                    Geleceği şekillendiren teknolojiler inşa ediyorum.
+                </p>
+                <div class="hero-cta">
+                    <a href="#portfolio" class="btn btn-primary">Projelerimi İncele <i
+                            class="ph ph-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-secondary">İletişim Kur</a>
+                </div>
+
+                <div class="social-links hero-socials">
+                    <a href="https://github.com/mehmetsayman" target="_blank" aria-label="GitHub"><i
+                            class="ph ph-github-logo"></i></a>
+                    <a href="https://www.linkedin.com/in/mehmet-sayman-261b86328/" target="_blank"
+                        aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+                    <a href="mailto:mehmetsayman1903@gmail.com" aria-label="Email"><i
+                            class="ph ph-envelope-simple"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-image-wrapper reveal delay-1">
+                <div class="image-border">
+                    <img src="./images/profile.jpg" alt="Mehmet Sayman" class="profile-img">
+                </div>
+                <!-- Floating tech icons/badges -->
+                <div class="floating-badge badge-1">
+                    <i class="ph-fill ph-check-circle"></i> 50+ Proje
+                </div>
+                <div class="floating-badge badge-2">
+                    <i class="ph-fill ph-code"></i> Developer
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Hakkımda</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <h3 class="about-heading">Kodlara ve Yapay Zekaya Fısıldayan Biri.</h3>
+                    <p>
+                        Çanakkale Onsekiz Mart Üniversitesi, Bilgisayar Mühendisliği bölümünde 3. sınıf öğrencisi olarak
+                        eğitimime devam etmekteyim.
+                        Akademik hayatımın başından beri teknolojiye olan tutkum beni sürekli yeni şeyler öğrenmeye ve
+                        öğretilerimi pratiğe dökmeye itti.
+                    </p>
+                    <p>
+                        Özellikle <strong>Yapay Zeka (AI)</strong> ve <strong>Yazılım Geliştirme</strong> odaklı sistem
+                        mimarisi üzerinde çalışmaktan büyük keyif alıyorum.
+                        Modern problemleri şık, optimize edilmiş ve kullanıcı dostu algoritmalarla çözmek en büyük
+                        motivasyonum.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">3.</span>
+                            <span class="stat-label">Sınıf<br>Öğrencisi</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Geliştirilen<br>Proje</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">AI</span>
+                            <span class="stat-label">Odaklı<br>Geliştirme</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-visual reveal delay-1">
+                    <div class="glass-card terminal-card">
+                        <div class="terminal-header">
+                            <span class="dot close"></span>
+                            <span class="dot minimize"></span>
+                            <span class="dot maximize"></span>
+                            <div class="terminal-title">mehmet_sayman.json</div>
+                        </div>
+                        <div class="terminal-body">
+                            <pre><code>{
+  <span class="json-key">"isim"</span>: <span class="json-string">"Mehmet Sayman"</span>,
+  <span class="json-key">"universite"</span>: <span class="json-string">"ÇOMÜ"</span>,
+  <span class="json-key">"bolum"</span>: <span class="json-string">"Bilgisayar Müh."</span>,
+  <span class="json-key">"ilgiAlanlari"</span>: [
+    <span class="json-string">"Yapay Zeka"</span>,
+    <span class="json-string">"Backend Dev"</span>,
+    <span class="json-string">"Sistem Mimarisi"</span>
+  ],
+  <span class="json-key">"hedef"</span>: <span class="json-string">"Sınırları Zorlamak"</span>
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header center reveal">
+                <h2 class="section-title">Yetenekler</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Güçlü yönlerim ve kullandığım ana diller.</p>
+            </div>
+
+            <div class="skills-container reveal delay-1">
+                <!-- Skill 1 -->
+                <div class="skill-card">
+                    <div class="skill-icon python">
+                        <i class="ph ph-file-py"></i>
+                    </div>
+                    <div class="skill-info">
+                        <div class="skill-header">
+                            <h4>Python</h4>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar python-bar" data-width="90%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="skill-card">
+                    <div class="skill-icon java">
+                        <i class="ph ph-coffee"></i>
+                    </div>
+                    <div class="skill-info">
+                        <div class="skill-header">
+                            <h4>Java</h4>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar java-bar" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="skill-card">
+                    <div class="skill-icon csharp">
+                        <i class="ph ph-hash"></i>
+                    </div>
+                    <div class="skill-info">
+                        <div class="skill-header">
+                            <h4>C#</h4>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar csharp-bar" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 4 -->
+                <div class="skill-card">
+                    <div class="skill-icon cpp">
+                        <i class="ph ph-file-cpp"></i>
+                    </div>
+                    <div class="skill-info">
+                        <div class="skill-header">
+                            <h4>C++</h4>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar cpp-bar" data-width="75%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 5 -->
+                <div class="skill-card">
+                    <div class="skill-icon c">
+                        <i class="ph ph-file-c"></i>
+                    </div>
+                    <div class="skill-info">
+                        <div class="skill-header">
+                            <h4>C</h4>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar c-bar" data-width="70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Projelerim</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Bugüne kadar geliştirdiğim <strong>50+ projeden</strong> öne çıkanlar.</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card reveal">
+                    <div class="project-image">
+                        <div class="img-placeholder bg-gradient-1">
+                            <i class="ph ph-robot"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="icon-link" aria-label="Github"><i class="ph ph-github-logo"></i></a>
+                                <a href="#" class="icon-link" aria-label="Demo"><i class="ph ph-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">AI</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Hackathon</span>
+                        </div>
+                        <h3 class="project-title">Social AI</h3>
+                        <p class="project-desc">Hackathon kapsamında geliştirilmiş, yapay zeka destekli otonom sosyal
+                            medya yönetim asistanı uygulaması.</p>
+                        <a href="#" class="btn-text">GitHub'da İncele <i class="ph ph-github-logo"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card reveal delay-1">
+                    <div class="project-image">
+                        <div class="img-placeholder bg-gradient-2">
+                            <i class="ph ph-trend-up"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="icon-link" aria-label="Github"><i class="ph ph-github-logo"></i></a>
+                                <a href="#" class="icon-link" aria-label="Demo"><i class="ph ph-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">Bot API</span>
+                            <span class="tag">Finans</span>
+                        </div>
+                        <h3 class="project-title">Borsa & Hisse Bot</h3>
+                        <p class="project-desc">Telegram API kullanarak anlık borsa fiyatlarını ve hisse hareketlerini
+                            takip edip bildirim gönderen akıllı bot sistemi.</p>
+                        <a href="#" class="btn-text">GitHub'da İncele <i class="ph ph-github-logo"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card reveal delay-2">
+                    <div class="project-image">
+                        <div class="img-placeholder bg-gradient-3">
+                            <i class="ph ph-code"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="icon-link" aria-label="Github"><i class="ph ph-github-logo"></i></a>
+                                <a href="#" class="icon-link" aria-label="Demo"><i class="ph ph-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Desktop App</span>
+                        </div>
+                        <h3 class="project-title">Stock Management System</h3>
+                        <p class="project-desc">İşletmeler için tasarlanmış MVC mimarisi ile geliştirilmiş masaüstü stok
+                            ve müşteri takip otomasyonu.</p>
+                        <a href="#" class="btn-text">GitHub'da İncele <i class="ph ph-github-logo"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-more center reveal">
+                <a href="#" class="btn btn-secondary">Tüm 50+ Projemi GitHub'da Gör <i
+                        class="ph ph-github-logo"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-card glass-card reveal">
+                <div class="contact-header center">
+                    <h2 class="section-title">Birlikte Çalışalım</h2>
+                    <p>Yaz stajı teklifleri, fikir alışverişleri veya sadece selam vermek için bana ulaşmaktan
+                        çekinmeyin.</p>
+                </div>
+
+                <div class="contact-links">
+                    <a href="mailto:mehmetsayman1903@gmail.com" class="contact-item">
+                        <div class="contact-icon bg-gradient-1">
+                            <i class="ph-fill ph-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span>E-posta</span>
+                            <strong>mehmetsayman1903@gmail.com</strong>
+                        </div>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/mehmet-sayman-261b86328/" target="_blank" class="contact-item">
+                        <div class="contact-icon bg-gradient-2">
+                            <i class="ph-fill ph-linkedin-logo"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span>LinkedIn</span>
+                            <strong>in/mehmet-sayman-261b86328</strong>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/mehmetsayman" target="_blank" class="contact-item">
+                        <div class="contact-icon bg-gradient-3">
+                            <i class="ph-fill ph-github-logo"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span>GitHub</span>
+                            <strong>github.com/mehmetsayman</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">M<span>.</span>S</div>
+                <p>&copy; 2026 Mehmet Sayman. Tüm hakları saklıdır.</p>
+                <div class="footer-socials">
+                    <a href="https://github.com/mehmetsayman" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+                    <a href="https://www.linkedin.com/in/mehmet-sayman-261b86328/" aria-label="LinkedIn"><i
+                            class="ph ph-linkedin-logo"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
